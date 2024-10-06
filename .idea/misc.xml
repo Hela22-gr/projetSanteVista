@@ -5,6 +5,11 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/configServerSanteVista/pom.xml" />
+        <option value="$PROJECT_DIR$/eurekaSanteVista/pom.xml" />
+        <option value="$PROJECT_DIR$/gatewaySanteVista/pom.xml" />
+        <option value="$PROJECT_DIR$/emailSanteVista/pom.xml" />
+        <option value="$PROJECT_DIR$/keycloakSanteVista/pom.xml" />
+        <option value="$PROJECT_DIR$/SanteVista/pom.xml" />
       </list>
     </option>
   </component>
