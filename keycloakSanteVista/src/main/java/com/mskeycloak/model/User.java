@@ -27,17 +27,9 @@ public class User {
     @Id
     @Column(name = "id")
     private String id;
-
-
     private String username;
-
-
     private String email;
-
-
     private String firstname;
-
-
     private String lastname;
     private float weight;
     private float Height;
@@ -46,21 +38,12 @@ public class User {
     private int age;
     private Long idRegime;
     private Long idActivity;
-
-
     private String password;
-
     private boolean enabled = true;
-
     private boolean status = false;
-
     private String gender;
-
     private String VERIF_CODE;
-
     private String VERIF_CODE_DATE;
-
-
     @ManyToMany(fetch = FetchType.EAGER)
     @JoinTable(
             name = "user_roles",
@@ -68,9 +51,7 @@ public class User {
             inverseJoinColumns = @JoinColumn(name = "role_id")
     )
     private Collection<Role> roles = new ArrayList<>();
-
     private Integer failedLoginAttempts;
-
     private Boolean accountLocked;
     private LocalDateTime lockTime;
     private LocalDateTime unlockTime;

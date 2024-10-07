@@ -7,7 +7,7 @@ spring:
   cloud:
     gateway:
       routes:
-         #-----------email---------------------
+        #-----------email---------------------
         - id: email-service
           uri: http://localhost:8086
           predicates:
